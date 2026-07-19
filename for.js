@@ -11,13 +11,21 @@ const numbers=[23,23,43,23,45,32,432,21,32,343];
 // }
 
 
-let i=0;
-while(i<numbers.length){
-    const item=numbers[i];
-    // console.log(item);
-    i++;
-    if(item===32){
-        console.log("Find items : ", item);
-        break
+// let i=0;
+// while(i<numbers.length){
+//     const item=numbers[i];
+//     // console.log(item);
+//     i++;
+//     if(item===32){
+//         console.log("Find items : ", item);
+//         break
+//     }
+// }
+
+
+for (number of numbers){
+    if(number===32){
+        console.log("Find items is:", number);
+        break;
     }
 }
